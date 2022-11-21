@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Wyrm Digital is a small game studio founded in 2022 to provide high-quality work environment for passionate talents.">
+		<meta name="description" content="Wyrm Digital is an indie game studio founded in 2022 to create awesome games.">
         <meta name="keywords" content="games, video games, indie games, game studio, game publisher">
 		<meta name="author" content="Wyrm Digital">
 		<title>Wyrm Digital</title>
@@ -15,13 +15,13 @@
 
     <body>
         <!-- Header -->
-        <div class="strip">
+        <div class="strip" id="header">
             <div class="center pad-t100">
                 <img src="assets/images/wyrmdigital_logo_transparent_rectangle.png" class="logo unselectable">
             </div>
         </div>
 
-        <!-- About -->
+        <!-- Social Media -->
         <div class="strip">
             <img src="assets/images/transition_wave.svg" class="unselectable" style="transform: scaleX(-1) translate(0, 10px);">      
                 <div class="pad-v10 bgcolor-ac unselectable">
@@ -41,7 +41,7 @@
         <div class="pad-v100"></div>
 
         <!-- Newsletter -->
-        <div class="strip">
+        <div class="strip" id="newsletter">
             <img src="assets/images/transition_wave.svg" class="unselectable" style="transform: translate(0, 10px);">      
                 <div class="pad-v10 bgcolor-ac unselectable">
                 <div class="focus center color-ws pad-v10">
@@ -54,11 +54,44 @@
         </div>
     </body>
 
+    <div class="pad-v100"></div>
+
+    <!-- Footer -->
     <footer class="strip">
-        <div class="focus center color-ac">
-            <p class="p2">YouTube · Twitter · Discord</p>
-            <hr style="width: 30%;">
-            <p class="p3">2022 Wyrm Digital</p>
+        <div class="row focus-more">
+            <div class="column">
+                <div class="center color-ac">
+                    <p class="p3"><b>Social Media</b></p>
+                    <p class="p3"><a href="https://www.youtube.com/@wyrmdigital" target="_blank" rel="noopener noreferrer" class="button color-ac">YouTube</a></p>
+                    <p class="p3"><a href="https://twitter.com/WyrmDigital" target="_blank" rel="noopener noreferrer" class="button  color-ac">Twitter</a></p>
+                    <p class="p3"><a href="https://discord.gg/Nsj2HtT28r" target="_blank" rel="noopener noreferrer" class="button  color-ac">Discord</a></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="center color-ac">
+                    <p class="p3"><b>Contact</b></p>
+                    <p class="p3"><a href="mailto:wyrmdigital@gmail.com" target="_blank" rel="noopener noreferrer" class="button color-ac">WyrmDigital@gmail.com</a></p>
+                    <p class="p3"><a href="#newsletter" class="button color-ac">Subscribe to newsletter</a></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="center color-ac">
+                    <p class="p3"><b>Legal</b></p>
+                    <p class="p3"><a href="pages/legal/privacy.html" class="button color-ac">Privacy Policy</a></p>
+                    <p class="p3"><a href="" class="button color-ac">Terms of Service</a></p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="center color-ac">
+                    <p class="p3"><b>Navigation</b></p>
+                    <p class="p3"><a href="#header" class="button color-ac">Top of page</a></p>
+                    <p class="p3"><a href="" class="button color-ac">About</a></p>
+                </div>
+            </div>
         </div>
+
+        <br>
+        <p class="p3 pad-t10 center color-ac">© 2022 Wyrm Digital. All rights reserved.</p>
+        <br>
     </footer>
 </html>
