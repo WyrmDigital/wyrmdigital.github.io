@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;800&display=swap');
+
+h1{
+    font-family: "Exo", sans-serif;
+    font-size: 84px;
+    font-weight: 900;
+    margin: 6px;
+}
+
+h2{
+    font-family: "Exo", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    margin: 3px;
+}
+
+p{
+    word-break: break-all;
+    white-space: normal;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.p-small{
+    word-break: break-all;
+    white-space: normal;
+
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a{
+    display:inline;
+    background-image:url(../images/distressed-underline-custom.svg);
+    background-repeat:repeat-x,no-repeat;
+    background-position:0 95%;
+    background-size:128px 4px,0 0;
+
+    transition: all 0.25s;
+}
+
+a:hover{
+    background-image: url(../images/distressed-underline--primary.svg)
+}

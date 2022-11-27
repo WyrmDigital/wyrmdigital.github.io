@@ -1,0 +1,55 @@
+.icon-wyrm{
+    width: 71px;
+    height: 32px; 
+
+    background-image: url(../images/icon_wyrm.png);
+    background-size: 142px 32px;
+    background-position: 0 0;
+    background-repeat: no-repeat; 
+    
+    transition: transform var(--quick);
+}
+
+.icon-wyrm:hover, .icon-wyrm:active {
+    background-position: -71px 0;
+    transform: rotate(3deg);
+}
+
+.icon-discord, .icon-twitter, .icon-youtube {
+    width: 32px;
+    height: 32px; 
+
+    background-image: url(../images/icon_media.png);
+    background-size: 192px 32px;
+    background-repeat: no-repeat; 
+
+    transition: transform var(--quick);
+}
+
+.icon-discord{
+    background-position: 0 0;
+}
+
+.icon-twitter{
+    background-position: -64px 0;
+}
+
+.icon-youtube{
+    background-position: -128px 0;
+}
+
+.icon-discord:hover, .icon-twitter:hover, .icon-youtube:hover{
+    transform: rotate(10deg);
+}
+
+.icon-discord:hover, .icon-discord:active{
+    background-position: -32px 0;
+}
+
+.icon-twitter:hover, .icon-twitter:active{
+    background-position: -96px 0;
+}
+
+.icon-youtube:hover, .icon-youtube:active{
+    background-position: -160px 0;
+}

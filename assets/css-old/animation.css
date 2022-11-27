@@ -1,0 +1,17 @@
+.fadein-appear{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.fadein-move{
+    opacity: 1;
+    transform: translateX(-100%);
+    filter: blur(100px);
+    transition: all 0.2s;
+}
+
+.fadein-show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}

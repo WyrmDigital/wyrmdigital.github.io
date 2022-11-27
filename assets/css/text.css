@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Plus+Jakarta+Sans:wght@800&display=swap');
+
+h1, h2, h3, h4, p, a{
+    margin: 0;
+    color: var(--platinum);
+    transition: all var(--quick);
+}
+
+h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+
+    margin-bottom: 1.2em;
+}
+
+h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+
+    margin-bottom: 0.9em;
+}
+
+h3{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.25em;
+    font-weight: 800;
+
+    margin-bottom: 0.6em;
+}
+
+h4{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+
+    margin-bottom: 0.3em;
+}
+
+p{
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+    color: var(--pastel);
+
+    margin-bottom: 0.3em;
+    word-break:keep-all;
+    white-space: normal;
+}

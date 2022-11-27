@@ -1,0 +1,79 @@
+:root{
+    --deepsea: #1A212B;
+    --pastel: #D0C8AF;
+    --platinum: #ECE9DF;
+    --quick: 0.25s;
+    --padding: 5vw;
+}
+
+/* header{
+    background: linear-gradient(#000000 -300%, rgba(255, 255, 255, 0));
+} */
+
+body, footer{
+    background-color: var(--deepsea);
+}
+
+footer{
+    border-top: 1px solid gray;
+}
+
+hr{
+    background-color: var(--platinum);
+    border-color: var(--platinum);
+    flex: 1;
+}
+
+/* COLOR */
+.bg-deepsea{
+    background-color: var(--deepsea);
+    background: var(--deepsea);
+}
+
+.color-platinum{
+    color: var(--platinum);
+}
+
+
+/* IMAGE */
+.hero-image{
+    /*background-image: url('../images/ourariver.jpg');*/
+    background: linear-gradient(70deg, rgb(224, 70, 255),rgb(0, 50, 202));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 25%;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.divider-image{
+    background-image: url('../images/divider.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 64px;
+    height: 32px;
+
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+}
+
+.divider-line{
+    background: var(--deepsea);
+    height: 32px; flex: 1;
+
+    border-top: 2px solid var(--platinum);
+    margin-bottom: -5px;
+}
+
+.triangle-image{
+    background-image: url('../images/triangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: -5px;
+}

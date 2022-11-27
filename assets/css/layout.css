@@ -1,0 +1,79 @@
+header{
+    position: fixed;
+}
+
+body, footer{
+    margin: 0px;
+}
+
+.block{
+    margin: 0;
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+    width: 100%;
+
+    display: block;
+}
+
+.rowbox, .rowbox-reverse{
+    width: 100%;
+    gap: var(--padding);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.rowbox-reverse{
+    flex-direction: column-reverse;
+}
+
+.colbox, .colbox-reverse{
+    gap: var(--padding);
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.colbox-reverse{
+    flex-direction: row-reverse;
+}
+
+.stretch{
+    align-content: stretch;
+}
+
+.even{
+    align-content: space-between;
+}
+
+.focus{
+    /*max-width: calc(100vw - (var(--padding) * 2));*/
+    margin: 0;
+    margin-left: var(--padding);
+    margin-right: var(--padding);
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.no-gap{
+    gap: 0;
+}
+
+.margin-auto{
+    margin: auto;
+}
+
+.glue-bottom{
+    margin-bottom: -2px;
+}
+
+.center{
+    text-align: center;
+    align-self: center;
+}
