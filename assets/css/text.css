@@ -54,6 +54,22 @@ a{
     text-decoration: none;
 }
 
+a.p-link{
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+    color: gray;
+
+    text-decoration: underline;
+    text-underline-offset: 0.19em;
+
+
+    margin-bottom: 0.3em;
+    word-break:keep-all;
+    white-space: normal;
+}
+
 a.footer-link{
     font-family: "Oxygen", sans-serif;
     font-size: 1em;
@@ -66,7 +82,7 @@ a.footer-link{
     white-space: normal;
 }
 
-a.footer-link:hover, a.footer-link:active{
+a.footer-link:hover, a.footer-link:active, a.p-link:hover, a.p-link:active{
     color: white;
 }
 
