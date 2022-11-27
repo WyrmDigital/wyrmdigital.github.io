@@ -61,10 +61,6 @@ a.p-link{
 
     color: gray;
 
-    text-decoration: underline;
-    text-underline-offset: 0.19em;
-
-
     margin-bottom: 0.3em;
     word-break:keep-all;
     white-space: normal;
