@@ -49,3 +49,35 @@ p{
     word-break:keep-all;
     white-space: normal;
 }
+
+a{
+    text-decoration: none;
+}
+
+a.footer-link{
+    font-family: "Oxygen", sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+
+    color: gray;
+
+    margin-bottom: 0.3em;
+    word-break:keep-all;
+    white-space: normal;
+}
+
+a.footer-link:hover, a.footer-link:active{
+    color: white;
+}
+
+.fineprint{
+    font-family: "Oxygen", sans-serif;
+    font-size: 0.75em;
+    font-weight: 300;
+
+    color: gray;
+
+    margin-bottom: 0.3em;
+    word-break:keep-all;
+    white-space: normal;
+}

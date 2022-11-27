@@ -43,7 +43,7 @@ body, footer{
 }
 
 .even{
-    align-content: space-between;
+    align-content:center;
 }
 
 .focus{
@@ -69,6 +69,14 @@ body, footer{
     margin: auto;
 }
 
+.margin-25{
+    margin: 25px;
+}
+
+.margin-top-25{
+    margin-top: 25px;
+}
+
 .glue-bottom{
     margin-bottom: -2px;
 }
@@ -76,4 +84,10 @@ body, footer{
 .center{
     text-align: center;
     align-self: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2vh;
 }

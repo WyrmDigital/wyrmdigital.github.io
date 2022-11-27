@@ -14,10 +14,6 @@ body, footer{
     background-color: var(--deepsea);
 }
 
-footer{
-    border-top: 1px solid gray;
-}
-
 hr{
     background-color: var(--platinum);
     border-color: var(--platinum);
@@ -46,6 +42,7 @@ hr{
     min-height: 75vh;
 }
 
+.divider-image-round,
 .divider-image{
     background-image: url('../images/divider.png');
     background-repeat: no-repeat;
@@ -56,6 +53,10 @@ hr{
     margin-left: -5px;
     margin-right: -5px;
     margin-bottom: -5px;
+}
+
+.divider-image-round{
+    background-image: url('../images/divider_round.png');
 }
 
 .divider-line{
@@ -72,8 +73,12 @@ hr{
     background-size: cover;
     width: 32px;
     height: 32px;
+}
 
-    margin-left: -5px;
-    margin-right: -5px;
-    margin-bottom: -5px;
+.round-image{
+    background-image: url('../images/round.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
 }
